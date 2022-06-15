@@ -1,0 +1,30 @@
+{
+  "name": "kusama-1kv-prometheus-exporter",
+  "version": "1.0.0",
+  "description": "Prometheus Exporter for Kusama 1KV",
+  "main": "prometheus-exporter.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metaspan/kusama-1kv-prometheus-exporter.git"
+  },
+  "keywords": [
+    "prometheus",
+    "kusama",
+    "1kv"
+  ],
+  "author": "derek@metaspan.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/metaspan/kusama-1kv-prometheus-exporter/issues"
+  },
+  "homepage": "https://github.com/metaspan/kusama-1kv-prometheus-exporter#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "moment-timezone": "^0.5.34"
+  }
+}
