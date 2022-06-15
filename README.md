@@ -3,7 +3,7 @@ Prometheus Exporter for Polkadot 1KV
 
 # Hosted service
 
-A hosted service is available here: http://dot-1kv-prometheus.metaspan.io/metrics/<stash>
+A hosted service is available here: `http://dot-1kv-prometheus.metaspan.io/metrics/<stash>`
 If you use the service please consider supporting us (see below)
 
 # Useage
