@@ -29,36 +29,44 @@ scrape_configs:
 ## Example output
 
 ```
-dot_1kv_updated_at{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 1655290636179
-dot_1kv_valid{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 1
-dot_1kv_active{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 0
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="CLIENT_UPGRADE"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="ACCUMULATED_OFFLINE_TIME"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="COMMISION"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="VALIDATE_INTENTION"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="SELF_STAKE"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="ONLINE"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="CONNECTION_TIME"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="IDENTITY"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="UNCLAIMED_REWARDS"} 1
-dot_1kv_validity{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ", type="BLOCKED"} 1
-dot_1kv_score_updated{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 1655290532577
-dot_1kv_score_total{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 270.5390898836776
-dot_1kv_score_aggregate{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 252.8306228522842
-dot_1kv_score_spanInclusion{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 0
-dot_1kv_score_inclusion{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 87.49999999999999
-dot_1kv_score_discovered{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 0
-dot_1kv_score_nominated{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 11.680892013354473
-dot_1kv_score_rank{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 0.017655367231638415
-dot_1kv_score_unclaimed{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 0
-dot_1kv_score_bonded{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 50
-dot_1kv_score_faults{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 5
-dot_1kv_score_offline{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 0
-dot_1kv_score_location{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 40
-dot_1kv_score_councilStake{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 37.5
-dot_1kv_score_democracy{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 21.132075471698116
-dot_1kv_score_randomness{stash="16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"} 1.0700408314136043
+dot_1kv_updated_at{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 1655300703292
+dot_1kv_valid{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 1
+dot_1kv_active{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 0
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="CLIENT_UPGRADE"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="VALIDATE_INTENTION"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="ACCUMULATED_OFFLINE_TIME"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="ONLINE"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="CONNECTION_TIME"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="IDENTITY"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="REWARD_DESTINATION"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="COMMISION"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="SELF_STAKE"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="UNCLAIMED_REWARDS"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="BLOCKED"} 1
+dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="KUSAMA_RANK"} 1
+dot_1kv_score{category="updated", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 1655300410527
+dot_1kv_score{category="total", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 371.98508613734555
+dot_1kv_score{category="aggregate", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 350.24519112096846
+dot_1kv_score{category="spanInclusion", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 100
+dot_1kv_score{category="inclusion", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 87.5
+dot_1kv_score{category="discovered", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 0
+dot_1kv_score{category="nominated", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 29.897068843215276
+dot_1kv_score{category="rank", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 0
+dot_1kv_score{category="unclaimed", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 0
+dot_1kv_score{category="bonded", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 23.584747792156495
+dot_1kv_score{category="faults", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 5
+dot_1kv_score{category="offline", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 2
+dot_1kv_score{category="location", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 20
+dot_1kv_score{category="councilStake", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 50
+dot_1kv_score{category="democracy", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 32.26337448559671
+dot_1kv_score{category="randomness", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 1.0620705025151038
 ```
+
+# Grafana Panel config
+
+Metric: `dot_1kv_score{category=~"spanInclusion|inclusion|discovered|nominated|rank|unclaimed|bonded|faults|offline|location|councilStake|democracy|randomness"}`
+
+Legend: `{{category}}`
 
 # Support us
 

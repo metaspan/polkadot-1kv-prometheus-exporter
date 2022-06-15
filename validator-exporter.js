@@ -7,9 +7,9 @@
 import axios from 'axios'
 import moment from 'moment-timezone'
 
-const DEFAULT_TOKEN = 'KSM'
+const DEFAULT_TOKEN = 'DOT'
 const PREFIX = `${DEFAULT_TOKEN.toLocaleLowerCase()}_1kv`
-const DEFAULT_URL = 'https://kusama.w3f.community/candidates'
+const DEFAULT_URL = 'https://polkadot.w3f.community/candidates'
 const DEFAULT_INTERVAL = 3600 // seconds = 1 hour
 
 const DEFAULT_CONFIG = {
@@ -145,7 +145,7 @@ class ValidatorExporter {
                         Object.keys(validator.score).forEach(k => {
                             // this.slog(`checking key ${k}`)
                             if (!['_id', 'address', 'stash', '__v'].includes(k)) {
-                                items.push(`${this.config.prefix}_score_${k}{stash="${stash}"} ${validator.score[k]}`)
+                                items.push(`${this.config.prefix}_score{category="${k}", stash="${stash}"} ${validator.score[k]}`)
                             }
                         })
                         resolve(items.join("\n"))
