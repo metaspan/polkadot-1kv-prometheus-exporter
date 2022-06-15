@@ -1,6 +1,8 @@
 # polkadot-1kv-prometheus-exporter
 Prometheus Exporter for Polkadot 1KV
 
+For Kusama go here: https://github.com/metaspan/kusama-1kv-prometheus-exporter
+
 # Hosted service
 
 A hosted service is available here: `http://dot-1kv-prometheus.metaspan.io/metrics/<stash>`
