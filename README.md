@@ -1,6 +1,8 @@
 # polkadot-1kv-prometheus-exporter
 Prometheus Exporter for Polkadot 1KV
 
+For Kusama go here: https://github.com/metaspan/kusama-1kv-prometheus-exporter
+
 # Hosted service
 
 A hosted service is available here: `http://dot-1kv-prometheus.metaspan.io/metrics/<stash>`
@@ -63,6 +65,8 @@ dot_1kv_score{category="randomness", stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8H
 ```
 
 # Grafana Panel config
+
+![image](https://user-images.githubusercontent.com/1845970/173844894-a12aa9ed-cd0e-4fa5-8645-91986e734f7b.png)
 
 Metric: `dot_1kv_score{category=~"spanInclusion|inclusion|discovered|nominated|rank|unclaimed|bonded|faults|offline|location|councilStake|democracy|randomness"}`
 
