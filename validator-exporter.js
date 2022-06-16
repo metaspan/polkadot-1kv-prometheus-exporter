@@ -137,6 +137,7 @@ class ValidatorExporter {
                     var items = []
                     try {
                         items.push(`${this.config.prefix}_updated_at{stash="${stash}"} ${this.updatedAt.valueOf()}`)
+                        items.push(`${this.config.prefix}_rank{stash="${stash}"} ${validator.rank}`)
                         items.push(`${this.config.prefix}_valid{stash="${stash}"} ${validator.valid ? 1 : 0}`)
                         items.push(`${this.config.prefix}_active{stash="${stash}"} ${validator.active ? 1 : 0}`)
                         validator.validity.forEach(v => {
