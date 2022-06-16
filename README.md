@@ -32,6 +32,7 @@ scrape_configs:
 
 ```
 dot_1kv_updated_at{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 1655300703292
+dot_1kv_rank{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 7
 dot_1kv_valid{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 1
 dot_1kv_active{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV"} 0
 dot_1kv_validity{stash="12DmPk8ZU1i7R5mUtk5Hmeb6sTyUMpXVuE8HnZ9nZpP1WNTV", type="CLIENT_UPGRADE"} 1
