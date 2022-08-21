@@ -25,7 +25,7 @@ scrape_configs:
   - job_name: "dot-1kv"
     metrics_path: "/metrics/16ce9zrmiuAtdi9qv1tuiQ1RC1xR6y6NgnBcRtMoQeAobqpZ"
     static_configs:
-    - targets: ["192.168.1.20:3000"]
+    - targets: ["dot-1kv-prometheus.metaspan.io"] # only 1 needed
 ```
 
 ## Example output
